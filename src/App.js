@@ -5,20 +5,15 @@ import red from "./assets/red2.png";
 import green from "./assets/green4.png";
 import yellow from "./assets/yy.png";
 import purple from "./assets/purple4.png";
-import stard from "./assets/stard.png";
+
 import c from "./assets/redjedi.png";
-import redjedi from "./assets/redjedi.png";
+
 import lumi1 from "./assets/lum2.png";
 function App() {
   const [srcImage, setSrcImage] = useState(green);
-  const [textset, setText] = useState("");
-  const [textset1, setText1] = useState("");
-  const [srcImage1, setSrcImage2] = useState(red);
+
   console.log("oi");
-  function handleText() {
-    setText("Blue");
-    setText1("Purple");
-  }
+
   return (
     <div className="container">
       <header>
