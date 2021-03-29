@@ -27,7 +27,7 @@ function App() {
           </li>
           <li></li>
         </ul> */}
-        <a className="fallen">
+        <a className="fallen" href="#">
           <img src={c} className="wars" alt="" />
         </a>
       </header>
@@ -52,7 +52,7 @@ function App() {
         ) : srcImage === yellow ? (
           <h1 className="YellowText">Yellow</h1>
         ) : (
-          (<h1></h1>)()
+          console.log("oi")()
         )}
 
         <img src={srcImage} className="principal-sabre" alt="" />
