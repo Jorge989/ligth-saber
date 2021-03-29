@@ -12,7 +12,7 @@ import lumi1 from "./assets/lum2.png";
 function App() {
   const [srcImage, setSrcImage] = useState(green);
 
-  console.log("oi");
+  console.log("oioioiio");
 
   return (
     <div className="container">
