@@ -39,7 +39,7 @@ function App() {
         <img src={lumi1} className="lumi1" alt="" />
       </div>
       <div className="card-container">
-        {srcImage == green ? (
+        {srcImage === green ? (
           <h1 className="greenText">Green</h1>
         ) : srcImage === red ? (
           <h1 className="RedText">Red</h1>
