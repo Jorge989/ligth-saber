@@ -27,7 +27,7 @@ function App() {
           </li>
           <li></li>
         </ul> */}
-        <a className="fallen" href="#">
+        <a className="fallen" href="home">
           <img src={c} className="wars" alt="" />
         </a>
       </header>
