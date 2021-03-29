@@ -14,7 +14,7 @@ function App() {
   const [textset, setText] = useState("");
   const [textset1, setText1] = useState("");
   const [srcImage1, setSrcImage2] = useState(red);
-
+  console.log("oi");
   function handleText() {
     setText("Blue");
     setText1("Purple");
