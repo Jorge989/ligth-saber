@@ -46,15 +46,15 @@ function App() {
       <div className="card-container">
         {srcImage == green ? (
           <h1 className="greenText">Green</h1>
-        ) : srcImage == red ? (
+        ) : srcImage === red ? (
           <h1 className="RedText">Red</h1>
-        ) : srcImage == blue ? (
+        ) : srcImage === blue ? (
           <h1 className="BlueText">Blue</h1>
-        ) : srcImage == purple ? (
+        ) : srcImage === purple ? (
           <h1 className="PurpleText">Purple</h1>
-        ) : srcImage == blue ? (
+        ) : srcImage === blue ? (
           <h1 className="BlueText">Blue</h1>
-        ) : srcImage == yellow ? (
+        ) : srcImage === yellow ? (
           <h1 className="YellowText">Yellow</h1>
         ) : (
           (<h1></h1>)()
