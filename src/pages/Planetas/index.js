@@ -51,6 +51,7 @@ function Planetas() {
       setPopulation(response.data.population);
       setDiameter(response.data.diameter);
       setGravity(response.data.gravity);
+      console.log("aquiii" + response.data);
     });
   }, [page]);
   function handlePlanets() {
