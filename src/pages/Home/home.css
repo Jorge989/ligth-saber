@@ -1,0 +1,429 @@
+/* * {
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+} */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #0f1111;
+  position: fixed;
+  top: 0;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #18181a;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  width: 65%;
+  height: 65%;
+  margin-top: 5%;
+  z-index: 0;
+}
+@media only screen and (max-width: 600px) {
+  .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #18181a;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    width: 78%;
+    height: 65%;
+    margin-top: 5%;
+    z-index: 3;
+  }
+}
+header {
+  background-image: linear-gradient(
+    to right,
+    #000 15%,
+    rgb(0, 10, 54),
+    rgb(5, 5, 5)
+  );
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+@media only screen and (max-width: 600px) {
+  header {
+    background-image: linear-gradient(
+      to right,
+      #000 15%,
+      rgb(0, 10, 54),
+      rgb(5, 5, 5)
+    );
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    margin-left: 100px;
+    margin-top: 19px;
+    flex-direction: row;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .wars {
+    width: 100%;
+    height: 8%;
+
+    margin-left: 20%;
+    z-index: 3;
+  }
+  .fallen {
+    width: 100%;
+    height: 8%;
+
+    margin-left: 20%;
+    z-index: 3;
+  }
+  li {
+    text-decoration: none;
+    color: #fff;
+  }
+  a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+  }
+  a:hover {
+    color: rgb(1, 250, 55);
+  }
+}
+
+.divsabres {
+  display: flex;
+
+  width: 25%;
+  height: 10%;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+  flex-direction: row;
+}
+@media only screen and (max-width: 600px) {
+  .divsabres {
+    display: flex;
+
+    width: 80%;
+    height: 10%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    flex-direction: row;
+  }
+}
+
+.principal-sabre {
+  width: 60%;
+  margin-top: -150px;
+  height: 100%;
+  z-index: 3;
+}
+@media only screen and (max-width: 600px) {
+  .principal-sabre {
+    width: 100%;
+    margin-top: -150px;
+    height: 100%;
+    z-index: 3;
+  }
+}
+
+h1 {
+  margin-top: 100px;
+  color: #fff;
+}
+.greenText {
+  color: rgb(31, 245, 2);
+  font-family: "Roboto";
+}
+.RedText {
+  color: red;
+  font-family: "Roboto";
+  letter-spacing: 5px;
+}
+.BlueText {
+  color: rgb(0, 102, 255);
+  font-family: "Roboto";
+  letter-spacing: 5px;
+}
+.YellowText {
+  color: rgb(251, 255, 0);
+  font-family: "Roboto";
+  letter-spacing: 5px;
+}
+.PurpleText {
+  color: rgb(140, 0, 255);
+  font-family: "Roboto";
+  letter-spacing: 5px;
+}
+.red {
+  width: 13%;
+  height: 65%;
+  background-color: red;
+  box-shadow: 0px 0px 10px #000;
+  border-radius: 50%;
+  z-index: 3;
+}
+.green {
+  width: 13%;
+  height: 65%;
+  background-color: rgb(4, 255, 67);
+  box-shadow: 0px 0px 10px #000;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.green-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+@media only screen and (max-width: 600px) {
+  .green-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+  }
+}
+
+.btn-red {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid #fff;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.blue {
+  width: 13%;
+  height: 65%;
+  background-color: rgb(0, 132, 255);
+  box-shadow: 0px 0px 10px #000;
+  border-radius: 50%;
+  z-index: 3;
+}
+.blue-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid #fff;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.purple {
+  width: 13%;
+  height: 65%;
+  background-color: rgb(140, 0, 255);
+  box-shadow: 0px 0px 10px #000;
+  border-radius: 50%;
+  z-index: 3;
+}
+.purple-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid #fff;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.home {
+  display: none;
+}
+.yellow {
+  width: 13%;
+  height: 65%;
+  background-color: rgb(251, 255, 0);
+  box-shadow: 0px 0px 10px #000;
+  border-radius: 50%;
+  z-index: 3;
+}
+.yellow-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid #fff;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+
+.ola1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 390px;
+  position: absolute;
+  color: #fff;
+  background-color: transparent;
+  margin-top: -150px;
+  font-weight: 400;
+}
+.ola2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 300px;
+  position: absolute;
+  color: #fff;
+  background-color: transparent;
+  margin-top: 350px;
+  font-weight: bold;
+}
+
+.star-wars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.star {
+  width: 3%;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: fixed;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  margin-left: 80px;
+  margin-top: 19px;
+  flex-direction: row;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  color: rgb(1, 250, 55);
+}
+
+.wars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.5%;
+  margin-top: 1px;
+  margin-left: 5px;
+  position: fixed;
+  z-index: 3;
+}
+@media (max-width: 600px) {
+  .wars {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .home {
+    display: flex;
+  }
+}
+.fallen {
+  cursor: pointer;
+}
+.lumi {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.lumi1 {
+  display: flex;
+  width: 12%;
+  position: fixed;
+  height: 80%;
+  margin-top: 60px;
+  margin-left: 88%;
+}
+@media (max-width: 600px) {
+  header {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .uli {
+    margin-left: 25px;
+    margin-top: 25px;
+    gap: 20px;
+  }
+}
