@@ -19,14 +19,13 @@ import Mars12 from "../../assets/mars12.png";
 import Mars14 from "../../assets/mars14.png";
 
 function Planetas() {
-  const [planet, setPlanet] = useState({});
   const [population, setPopulation] = useState("");
   const [climate, setClimate] = useState("");
   const [page, setPage] = useState(1);
   const [name, setName] = useState("");
   const [diameter, setDiameter] = useState("");
   const [gravity, setGravity] = useState("");
-  const [srcPlanet, setSrcPlanet] = useState([Redp, Bluep, Lavap]);
+
   const images = [
     Redp,
     Mars2,

@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 export const Header1 = styled.header`
   background-image: linear-gradient(
     to right,
